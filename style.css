@@ -1,0 +1,78 @@
+@font-face {
+    font-family: tektur;
+    src: url(fonts/Tektur-VariableFont_wdth\,wght.ttf)
+}
+
+body {
+    background-color: hsla(0, 0%, 0%, 0.979);
+    background: linear-gradient(to bottom, #000000,#141c75);
+    font-family: tektur;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
+* {
+    font-size: 1.1em;
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 2px darkblue;
+    font-size: 1.7em;
+    font-weight: bolder;
+}
+
+form {
+    width: 80%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+input {
+    height: 25px;
+}
+
+::placeholder {
+    font-family: "courier new";
+    font-size: large;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin: 15px 0px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 20px;
+    margin: 0px 5px 0px 0px;
+    height: 20px;
+}
+
+input[type="password"] {
+    font-family: "courier new";
+    font-size: large;
+}
+
+input[type="submit"] {
+    background-color: #055df6;
+    font-family: tektur;
+    color: #ffff;
+    border-radius: 10px;
+    height: auto;
+}
+
+textarea {
+    resize: vertical;
+}
+
+#submit:hover {
+    background-color: rgb(95, 95, 227);
+    box-shadow: 2px 2px 15px blue;
+}
